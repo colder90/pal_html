@@ -1,0 +1,46 @@
+h1 {
+margin-left: auto;
+margin-right: auto;
+font-size: 75px;
+text-align: center;
+font-family: verdana;
+font-style: normal;
+}
+.logo {
+  display: block;
+  width: 75%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+  background-color: white;
+  background-image: url(hovedbilde.png);
+  background-repeat: no-no-repeat;
+  background-attachment: fixed;
+}
+
+#kropp {
+  background-color: white;
+  position: static;
+  width: 50%;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.grid {
+  display: grid;
+  grid-template-areas:
+      'header header header header header'
+      'menu main main right right'
+      'menu main2 main2 right2 right2'
+      'menu main3 main3 right3 right3'
+      'menu main4 main4 right4 right4'
+      'menu main5 main5 right5 right5'
+      'menu footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
